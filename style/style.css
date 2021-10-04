@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    background-color: #666361; 
+}
+
+.gradient {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 11px 5px 40px 5px rgba(0,0,0,0.8);
+    background-color: #b5b8bd;
+    padding: 2.5em;
+    border-radius: 5px;
+    color: black;
+}
+
+input {
+    cursor: pointer;
+    margin: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+input[type=color] {
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;    
+    height: 30px;
+    width: 100%;
+}
+
+#split {
+    width: 100%;
+}
+
+#gradient-code {
+    background-color: #e6e9ee;
+    font-size: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    width: 300px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 0.5rem 1.2rem;
+    background-image: linear-gradient(to right, rgb(226, 75, 75),rgb(241, 187, 86),rgb(245, 245, 112),rgb(151, 223, 151),rgb(136, 136, 243),rgb(201, 150, 238),rgb(233, 156, 233));
+    color: black;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, red,orange,yellow,rgb(23, 146, 184),rgb(112, 112, 201),indigo,violet);
+    font-style: normal;
+}
+
+
+
+

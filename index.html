@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Gradient Generator</title>
+</head>
+<body>
+    <form id="gradient" id="gradient" class="gradient">
+        <div>
+            <label for="picker-1">Color 1:</label>  
+            <input id="picker-1" type="color" name="color1" value="#f093fb"/>
+        </div>
+        <div>
+            <label for="picker-2">Color 2:</label>
+            <input id="picker-2" type="color" name="color2" value="#f5576c"/>
+        </div>
+        <div>
+            <label for="split">Split:</label>
+            <input value=50 type="range" id="split" name="split" min="0" max="100">
+        </div>
+        <input type="text" id="gradient-code" readonly>
+        <button id="btn-random">Surprise Me!</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
